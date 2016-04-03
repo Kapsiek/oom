@@ -99,6 +99,7 @@ namespace Task2
             Console.WriteLine("\n -------------    Family Members    -------------- ");
             Console.WriteLine("\n Status    |     NAME     |     SEX      |    Age  ");
             Console.WriteLine("\n ------------------------------------------------\n");
+
         }
     }
 }
