@@ -68,7 +68,7 @@ namespace Task2
             //set string for Jsonconversion
             string data = JsonConvert.SerializeObject(members);
             // set path for the Jason-File
-            string path_OF_file = @"C:\Users\ic15b081\Dropbox\FH\SEM_2_SS_2016\Objektorientierte Methoden\__GIT\oom\tasks\Task4\OUTPUT_File.txt";
+            string path_OF_file = @"C:\Users\Gerald\Dropbox\FH\SEM_2_SS_2016\Objektorientierte Methoden\__GIT\oom\tasks\Task4\OUTPUT_File.txt";
 
             //Write Data to the Jason-File
             if (!File.Exists(path_OF_file)) { File.WriteAllText(path_OF_file, data); }
